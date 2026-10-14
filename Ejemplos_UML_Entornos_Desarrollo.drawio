@@ -1,0 +1,271 @@
+<mxfile host="app.diagrams.net" pages="8">
+  <diagram name="01 Clase Coche" id="1">
+    <mxGraphModel dx="858" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2lmxBPQdxwXPJdW1a0pa-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Coche" vertex="1">
+          <mxGeometry height="177" width="160" x="130" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmxBPQdxwXPJdW1a0pa-2" parent="2lmxBPQdxwXPJdW1a0pa-1" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;- marca: String&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;- modelo: String&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;- velocidad: int&lt;/span&gt;" vertex="1">
+          <mxGeometry height="65" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmxBPQdxwXPJdW1a0pa-3" parent="2lmxBPQdxwXPJdW1a0pa-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="91" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmxBPQdxwXPJdW1a0pa-4" parent="2lmxBPQdxwXPJdW1a0pa-1" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;+ arrancar(): void&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmxBPQdxwXPJdW1a0pa-11" parent="2lmxBPQdxwXPJdW1a0pa-1" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;+ acelerar(): void&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="2lmxBPQdxwXPJdW1a0pa-10" parent="2lmxBPQdxwXPJdW1a0pa-1" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;+ frenar(): void()&lt;/font&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="151" as="geometry" />
+        </mxCell>
+        <mxCell id="NGGQLu9wqirPGCB0LB-e-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="DIAGRAMA&amp;nbsp; DE CLASES" vertex="1">
+          <mxGeometry height="30" width="330" x="30" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02 Objetos Coche" id="2">
+    <mxGraphModel dx="858" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pkFcIMKOkW0lF2dIx7Ca-1" parent="1" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b style=&quot;font-size: 14px; text-align: left;&quot;&gt;coche1 : Coche&lt;/b&gt;&lt;hr style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;marca = Toyota&lt;/span&gt;&lt;br style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;modelo = Corolla&lt;/span&gt;&lt;br style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;velocidad = 0&lt;/span&gt;&lt;hr style=&quot;font-size: 14px; text-align: left;&quot;&gt;" vertex="1">
+          <mxGeometry height="134" width="170" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pkFcIMKOkW0lF2dIx7Ca-2" parent="1" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b style=&quot;font-size: 14px; text-align: left;&quot;&gt;coche2 : Coche&lt;/b&gt;&lt;hr style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;marca = Seat&lt;/span&gt;&lt;br style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;modelo = Ibiza&lt;/span&gt;&lt;br style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;velocidad = 30&lt;/span&gt;&lt;hr style=&quot;font-size: 14px; text-align: left;&quot;&gt;" vertex="1">
+          <mxGeometry height="134" width="170" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="alqbYVOvQ5uqvQGap8A4-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="DIAGRAMA DE OBJETOS" vertex="1">
+          <mxGeometry height="30" width="170" x="80" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03 Herencia Vehiculo Coche" id="3">
+    <mxGraphModel dx="1030" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Vehiculo&lt;/b&gt;&lt;hr&gt;# marca: String&lt;br&gt;- velocidad: int&lt;hr&gt;+ arrancar(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="250" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Coche&lt;/b&gt;&lt;hr&gt;- puertas: int&lt;hr&gt;+ abrirMaletero(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="250" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=0;endSize=18;" target="v" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1t1rdK3Sjmys0kPBfi8M-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Clase padre" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="1t1rdK3Sjmys0kPBfi8M-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Clase hijo" vertex="1">
+          <mxGeometry height="30" width="60" x="525" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="dLZ3LfQZB2q65Q7NWShC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="DIAGRAMA DE GENERALIZACION O HERENCIA" vertex="1">
+          <mxGeometry height="30" width="350" x="190" y="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04 Asociacion Cliente Reserva" id="4">
+    <mxGraphModel dx="1030" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Cliente&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;br&gt;- dni: String&lt;hr&gt;+ reservar(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="r" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Reserva&lt;/b&gt;&lt;hr&gt;- fecha: Date&lt;br&gt;- codigo: String&lt;hr&gt;+ confirmar(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="490" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=none;startArrow=none;" target="r" value="1       realiza       0..*">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKUtnxAWSUB6PGBmtJHY-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oKUtnxAWSUB6PGBmtJHY-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;0..*&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oKUtnxAWSUB6PGBmtJHY-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. cada reserva pertenece a un cliente" vertex="1">
+          <mxGeometry height="30" width="220" x="270" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="oKUtnxAWSUB6PGBmtJHY-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0.. * un cliente puede tener ninguna, uno o varias reservas" vertex="1">
+          <mxGeometry height="30" width="320" x="250" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="AdFMYHOqm3RLaeRc67U--1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="DIAGRAMA DE ASOCIACIÓN" vertex="1">
+          <mxGeometry height="30" width="360" x="230" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05 Composicion Pedido Linea" id="5">
+    <mxGraphModel dx="1030" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Pedido&lt;/b&gt;&lt;hr&gt;- numero: int&lt;hr&gt;+ total(): double" vertex="1">
+          <mxGeometry height="160" width="250" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;LineaPedido&lt;/b&gt;&lt;hr&gt;- cantidad: int&lt;br&gt;- precioUnitario: double&lt;hr&gt;+ subtotal(): double" vertex="1">
+          <mxGeometry height="160" width="250" x="490" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="p" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;startArrow=diamond;startFill=1;startSize=20;endArrow=none;" target="l" value="1         1..*">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tcA4uRdwJpw1eIDz2udS-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RELACION FUERTE DE PERTENENCIA" vertex="1">
+          <mxGeometry height="30" width="250" x="300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tcA4uRdwJpw1eIDz2udS-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 pedido puede contener varias líneas de pedido" vertex="1">
+          <mxGeometry height="30" width="290" x="300" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="tcA4uRdwJpw1eIDz2udS-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si eliminamos el pedido deha de tener sentido LineaPedido" vertex="1">
+          <mxGeometry height="30" width="340" x="290" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk7NVETiLOzvIJIRc_-Y-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;DIAGRAMA DE COMPOSICIÓN&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="355" x="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk7NVETiLOzvIJIRc_-Y-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk7NVETiLOzvIJIRc_-Y-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.. *" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06 Agregacion Departamento Empleado" id="6">
+    <mxGraphModel dx="1030" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Departamento&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;hr&gt;+ incorporar(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Empleado&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;hr&gt;+ trabajar(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="490" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;startArrow=diamond;startFill=0;startSize=20;endArrow=none;" target="e" value="1         0..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zXQjea0Oes7kDJkHRm2I-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Aquí las partes pueden serguir existiendo independientemente del todo&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="375" x="240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="lf31C-WNzZeOsqC7-e2D-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;DIAGRAMA DE AGREGACIÓN&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="290" x="295" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07 Academia musica" id="7">
+    <mxGraphModel dx="858" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Profesor&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;br&gt;- dni: String&lt;br&gt;- especialidad: String&lt;hr&gt;+ impartirCurso(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="&lt;b&gt;Curso&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;br&gt;- duracionHoras: int&lt;br&gt;- nivel: String&lt;hr&gt;+ listarAlumnos(): List" vertex="1">
+          <mxGeometry height="160" width="250" x="490" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="&lt;b&gt;Alumno&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;br&gt;- edad: int&lt;br&gt;- telefono: String&lt;hr&gt;+ matricularse(c: Curso): void" vertex="1">
+          <mxGeometry height="160" width="250" x="490" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="p" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=none;startArrow=none;" target="c" value="1 profesor / 1..* cursos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=none;startArrow=none;" target="a" value="1..* cursos / 0..* alumnos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdN25Mtm_UUX37DzN_bP-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cada profesor puede impartir varios cursos.&lt;div&gt;Cada alumno puede matricularse en varios cursos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="360" x="10" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="pdN25Mtm_UUX37DzN_bP-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.. *" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdN25Mtm_UUX37DzN_bP-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.. *" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pdN25Mtm_UUX37DzN_bP-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Un alumno puede estar matriculado en varios cursos.&lt;div&gt;Cada curso puede tener varios alumnos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="290" x="50" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="pdN25Mtm_UUX37DzN_bP-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0 .. * Un curso puede tener 0, uno o muchos alumnos" vertex="1">
+          <mxGeometry height="30" width="210" x="790" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="pdN25Mtm_UUX37DzN_bP-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0 .. 1 cero o uno" vertex="1">
+          <mxGeometry height="30" width="130" x="850" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9z4DsuEKAtj8lMsKnZQH-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0 .. *" vertex="1">
+          <mxGeometry height="30" width="60" x="620" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="08 Tienda integradora" id="8">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Producto&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;br&gt;- precio: double&lt;hr&gt;+ aplicarIVA(): double" vertex="1">
+          <mxGeometry height="160" width="250" x="80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;ProductoDigital&lt;/b&gt;&lt;hr&gt;- urlDescarga: String&lt;hr&gt;+ descargar(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="80" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Cliente&lt;/b&gt;&lt;hr&gt;- nombre: String&lt;hr&gt;+ realizarPedido(): void" vertex="1">
+          <mxGeometry height="160" width="250" x="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pe" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;Pedido&lt;/b&gt;&lt;hr&gt;- fecha: Date&lt;hr&gt;+ total(): double" vertex="1">
+          <mxGeometry height="160" width="250" x="440" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="l" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fillColor=#eaf4ed;strokeColor=#466454;fontSize=14;" value="&lt;b&gt;LineaDePedido&lt;/b&gt;&lt;hr&gt;- cantidad: int&lt;hr&gt;+ subtotal(): double" vertex="1">
+          <mxGeometry height="160" width="250" x="800" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="pd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=block;endFill=0;endSize=18;" target="p" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=none;startArrow=none;" target="pe" value="1      0..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="pe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;startArrow=diamond;startFill=1;startSize=20;endArrow=none;" target="l" value="1     1..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="l" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;endArrow=none;startArrow=none;" target="p" value="0..*      1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwh5knxba4BjBImPQTKD-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;herencia&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gwh5knxba4BjBImPQTKD-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;asociación&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="600" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNGcW93ANwhw6P8iFxH-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;composición&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="720" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNGcW93ANwhw6P8iFxH-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNGcW93ANwhw6P8iFxH-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0.. *" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNGcW93ANwhw6P8iFxH-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="670" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNGcW93ANwhw6P8iFxH-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 .. *" vertex="1">
+          <mxGeometry height="30" width="60" x="750" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="nyNGcW93ANwhw6P8iFxH-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0 .. *" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
